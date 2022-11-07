@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>第5回</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+</head>
+<body>
+    <h1>可能性の模索</h1>
+    <!-- 塊ごとにdivタグで区切るようにしましょう。 -->
+    <div>
+    <h3>プログラミングの可能性</h3>
+        <div> 
+         私たちは、プログラミングで一体どのようなことができるのか考えました。<br>
+         これを考える際、まずは「こんなものがあればいいな」や「これが欲しい」といった簡単な欲求を並べました。<br>
+         その結果、お金が欲しいという意見から「株の運用を、より簡単で効果的にできないか」と考え、ボタンひとつで様々な会社の株を見比べられたり、AIが買い時や売り時を教えてくれたりするような機能を備えたアプリを制作することにしました。
+        </div>
+        <div>
+        実際に制作してみると、なかなか思い通りには進まず、結果としては、他サイトに飛ぶためのコードの入力程度しかできませんでした。そのため、もっと知識をつけてまたリベンジしたいと思います。
+        </div>
+
+    <h3>ソースコード</h3>
+        <pre><code>
+    import webbrowser
+
+    webbrowser.open('https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=121')
+    #ウェブを開くためのもの
+    
+    a = ["stock.py", "systemsoftware.py", "retail.py", "finamce.py", "massmedia.py"]
+    print(a["https://www.nikkei.com/nkd/industry/stocklist/?n_m_code=121"])
+    print(a[1])
+    print(a[2])
+    print(a[3])
+    print(a[4])
+    
+    <h3>参考文献</h3>
+    <a href="https://hibiki-press.tech/python/webbrowser_module/1884#:~:text=Python3.9.7-,%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%92%E9%96%8B%E3%81%84%E3%81%A6Web%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B,%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E5%BF%85%E8%A6%81%E3%81%AF%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%80%82&text=open()%20%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%82%92%E7%94%A8%E3%81%84,%E3%81%99%E3%82%8B%E3%81%A8True%E3%82%92%E8%BF%94%E3%81%97%E3%81%BE%E3%81%99%E3%80%82">ブラウザの起動方法</a><br>
+    <a href="https://ai-inter1.com/beautifulsoup_1/">beautifulsoupについて</a><br>
+    <a href="https://camp.trainocate.co.jp/magazine/python-library/#:~:text=%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95-,1%EF%BC%8E,%E4%BD%BF%E3%81%86%E3%81%93%E3%81%A8%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82">ライブラリについて</a>
+    </div>
+
+</body>
+</html>
