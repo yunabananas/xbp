@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../dfLink_iot_test"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dfLink_sample"
+	}
+}
