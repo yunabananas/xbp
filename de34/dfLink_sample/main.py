@@ -2,11 +2,11 @@ import dfLink
 
 #端末設定---------------------
 #端末keyを指定してください。
-pkey='3Ru8oEsyapp4FLP7Np0n'
+pkey=''
 #-------------------------------------------
 
 #シリアルポートを入力-------------------------
-serial_port='/dev/tty.usbserial-10'
+serial_port=''
 #-------------------------------------------
 #Arduinoとのシリアル通信設定-------------------
 my_arduino = dfLink.set_serial(serial_port,9600)
